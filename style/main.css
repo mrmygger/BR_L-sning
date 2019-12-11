@@ -53,6 +53,7 @@ p {
     height: 100vh;
     max-width: 450px;
     margin: 0 auto;
+    margin-bottom: 50px;
     background-image: url("pictures/background_flakes.jpg");
 }
 

@@ -5,3 +5,8 @@
     margin: 15px;
     border-radius: 5px;
 }
+
+.sticky {
+    margin: inherit;
+    margin-top: 2px;
+}
