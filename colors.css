@@ -1,0 +1,35 @@
+.red {
+    background-color: #D30025;
+}
+
+.green {
+    background-color: #38AB1C;
+}
+
+.blue_background { 
+    background-color: #A1CCD3;
+}
+
+.dark_gray { 
+    background-color: #505050;
+}
+
+.gray_text {
+    color: #505050;
+}
+
+.yellow {
+    background-color: #FFEC00;
+}
+
+.yellow_text {
+    color: #FFEC00;
+}
+
+.blue { 
+    background-color: #31B3D7;
+}
+
+.purple {
+    background-color: #9D7DAE;
+} 
