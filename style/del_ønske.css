@@ -1,0 +1,20 @@
+.del_ønske_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 7px;
+}
+
+.del_ønske_wrapper p {
+justify-self: left;
+align-self: center;
+}
+
+.del_knapper {
+    display: grid;
+}
+
+.del_knapper img {
+    justify-self: center;
+    align-self: center;
+}
