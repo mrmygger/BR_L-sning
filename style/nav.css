@@ -1,6 +1,7 @@
 nav {
-    display: flex;
-    background-color: #c3230d;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px;
     bottom: 0;
     justify-content: space-around;
     width: 100%;  
@@ -8,5 +9,25 @@ nav {
 }
 
 nav img {
-    width: 50px;
+    height: 40px;
+}
+
+.brButton {
+    height: 100px;
+    margin-top: -45px;
+}
+
+.navSack {
+    grid-column: 1 /2;
+}
+
+.navShare {
+    grid-column: 3 /4;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 10px;
 }
