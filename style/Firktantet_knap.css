@@ -1,4 +1,4 @@
-.firkantet_knap {
+.firkantet_button {
 
     border: none;
     color: white;
@@ -9,6 +9,15 @@
     font-size: 22px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.small_button {
+    padding: 10px 25px;
+    border-radius: 13px;
+}
+
+.login_wrapper {
+    display: grid;
 }
 
 .login {
@@ -34,5 +43,30 @@
     font-size: 22px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 25px 0 0 0;
+    border-radius: 0 25px 0 0;
 }
+
+.confirm_button_right { 
+    border: none;
+    color: white;
+    padding: 10px 73px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0 0 25px 0;
+}
+
+.confirm_button_left {
+    border: none;
+    color: white;
+    padding: 10px 73px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0 0 0 25px;
