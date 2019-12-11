@@ -1,15 +1,33 @@
 .rund_knap {
-    height: 61px;
-    width: 61px;
+    height: 72px;
+    width: 72px;
     border-radius: 50%;
     margin: 0 auto;
 }
 
-.camera_button {
-    background-color: red;
+.big_knap {
+    width: 100px;
+    height: 100px;
 }
 
-.hejhej { 
-    margin-top:;
+.small_knap {
+    width: 58px;
+    height: 58px;
 }
+
+.middle_knap { 
+    margin: 0 auto;
+}
+
+.left_knap {
+    margin: 0 12%;
+}
+
+.right_knap{ 
+    margin: 0 72%;
+}
+
+
+
+
 
