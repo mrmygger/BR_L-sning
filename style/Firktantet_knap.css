@@ -12,7 +12,19 @@
 }
 
 .login {
-    background-color: #D30025;
+    border: none;
+    color: white;
+    padding: 10px 73px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px 0 0 0;
+}
+
+.opret_ny {
     border: none;
     color: white;
     padding: 10px 73px;
