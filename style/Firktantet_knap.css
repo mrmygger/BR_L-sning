@@ -9,11 +9,15 @@
     font-size: 22px;
     margin: 4px 2px;
     cursor: pointer;
+    width: 266px;
+    height: 48px;
 }
 
 .small_button {
     padding: 10px 25px;
     border-radius: 13px;
+    width: 82px;
+    height: 39px;
 }
 
 .login_wrapper {
