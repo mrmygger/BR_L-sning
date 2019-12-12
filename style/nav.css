@@ -1,20 +1,22 @@
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 60px;
+    grid-template-rows: 50px;
     bottom: 0;
     justify-content: space-around;
     width: 100%;  
     padding: 10px;
+    margin-top: 46px;
 }
 
 nav img {
-    height: 40px;
+    height: 30px;
 }
 
 .brButton {
-    height: 100px;
-    margin-top: -45px;
+    height: 80px;
+    margin-top: -35px;
+    filter: drop-shadow(0px 3px 6px black);
 }
 
 .navSack {
@@ -26,8 +28,11 @@ nav img {
 }
 
 nav a {
-    text-decoration: none;
     color: white;
     font-weight: lighter;
     font-size: 10px;
+}
+
+.noMarginNav {
+    margin-top: 0;
 }

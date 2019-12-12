@@ -1,0 +1,11 @@
+.content_box {
+width: 93%;
+margin: 4% auto 0;
+background-color: white;
+border-radius: 5px;
+}
+
+.content_small { 
+    height: 20vh;
+}
+
