@@ -17,4 +17,6 @@ align-self: center;
 .del_knapper img {
     justify-self: center;
     align-self: center;
+    max-width: 50px;
+    : white;
 }
