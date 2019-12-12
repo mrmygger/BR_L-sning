@@ -1,11 +1,27 @@
+.velkomst {
+    padding: 0 10px 10px 10px;
+}
+
+.velkomst :nth-child(7) {
+    height: 72px;
+}
+
 .velkomst img {
     height: 100px;
     margin: 10px;
 }
 
 #soundButton {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin: inherit;
-    -webkit-transform-origin-y: -5px;
+}
+
+.santaAlign {
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.noMarginNav {
+    margin-top: 0;
 }
