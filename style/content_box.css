@@ -9,3 +9,7 @@ border-radius: 5px;
 .content_small { 
     height: 20vh;
 }
+
+.h1_small{
+    font-size: 35px;
+}

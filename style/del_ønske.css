@@ -1,8 +1,10 @@
 .del_ønske_wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 72px 101px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-row-gap: 7px;
+    grid-row-gap: 12px;
+    margin-top: 5vh;
+    justify-content: center;
 }
 
 .del_ønske_wrapper p {
@@ -17,4 +19,9 @@ align-self: center;
 .del_knapper img {
     justify-self: center;
     align-self: center;
+    width: 50px;
+}
+
+h1 {
+
 }
