@@ -1,0 +1,53 @@
+.my_wishlist img {
+    height: 109px;
+    margin-left: 6%;
+}
+
+.my_wishlist {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 0.5fr;
+    grid-template-rows: max-content;
+    min-height: 64vh;
+}
+
+.my_wishlist h2 {
+    text-shadow: 0 0 0;
+}
+
+
+.my_wishlist h1 {
+    grid-column: 1 / 4;
+    text-shadow: 0 0 0;
+}
+
+.my_wishlist p {
+    font-size: 10px;
+}
+
+.my_wishlist h2:last-child {
+    text-align: end;
+}
+
+.small_knap img {
+    height: 35px;
+    color: white;
+    margin: 12%;
+}
+
+.toy_info {
+    text-align: left;
+}
+
+.trashcan {
+    align-self: center;
+}
+
+.add_new_wish h2 {
+    text-shadow: 0 0 0;
+    font-size: 4vh;
+    margin: 2% 0;
+}
+
+.add_new_button { 
+    margin-top: 5%;
+}

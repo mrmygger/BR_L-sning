@@ -1,5 +1,4 @@
 .content_box {
-height: 64vh;
 width: 93%;
 margin: 4% auto 0;
 background-color: white;
@@ -12,4 +11,6 @@ border-radius: 5px;
 
 .h1_small{
     font-size: 35px;
+    min-height: 20vh;
+    height: 20vh;
 }
