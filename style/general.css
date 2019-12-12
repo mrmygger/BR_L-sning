@@ -6,12 +6,12 @@
 @import "firkantet_knap.css";
 @import "nav.css";
 @import "colors.css";
-@import "del_ønske.css";
+@import "del_oenske.css";
 @import "runde_knapper.css";
 @import "nav.css";
 @import "content_box.css";
 @import "velkomst.css";
-@import "my_wishlist.css"
 @import "my_wishlist.css";
 @import "shared.css";
-@import "font.css"
+@import "font.css";
+@import "add_wish.css";
