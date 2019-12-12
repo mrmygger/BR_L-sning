@@ -1,0 +1,31 @@
+.add_wish {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 84vh;
+}
+
+.add_wish h1 {
+    font-size: 30px;
+}
+
+.camera { 
+    background-color: lightgray;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.camera_nav {
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.camera_flip img {
+    margin-left: 2%;
+}
+
+.camera_flip img { 
+    height: 60px;
+}
