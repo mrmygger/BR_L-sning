@@ -7,4 +7,5 @@ border-radius: 5px;
 
 .content_small { 
     min-height: 20vh;
+    height: 20vh;
 }
