@@ -1,0 +1,12 @@
+.empty_wishlist {
+    display: grid;
+    grid-template-rows: 77px 1fr 1fr;
+    min-height: 64vh;
+}
+
+.santa_speach_box {
+    width: 93%;
+    margin: 4% auto 0;
+    background-color: white;
+    border-radius: 5px;
+    }
