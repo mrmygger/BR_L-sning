@@ -18,9 +18,18 @@
                     <img src="style/pictures/nisse_shadow.png" alt="nisse med gave">
                     <p class="gray_text">Find BR ønskebogen frem og så er vi klar!</p>
                     <img src="style/pictures/oenskebog.jpeg" alt="Oenskebogen">
-                    <p class="gray_text">Lad os komme i gang! Tryk på plus for at tilføje dit første ønske.</p>
+                    <p class="gray_text slim">Tryk på plusset for at tilføje dit første ønske.</p>
                     <img src="style/pictures/add_circle-24px.png" alt="" class="add_button">
-                    <p class="gray_text">Klik <img src="style/pictures/sound_button.png" alt="sound button" id="soundButton"> for at få julemanden til at læse op</p>
+                    <p class="lighter">Klik <button class="preview-button"><img id="soundButton" src="style/pictures/600px-Speaker_Icon.png" alt="sound button"></button> for at få julemanden til at læse op</p>
+                    
+                    <audio src="style/pictures/Neue Aufnahme 4.m4a" id="zouk-preview" type="audio/mpeg"></audio>
+                    <script>
+                        document.querySelector('.preview-button').addEventListener("click", function() {
+                            myAudio = document.querySelector("#zouk-preview");
+                            myAudio.paused ? myAudio.play() : myAudio.pause();
+                        });
+                    
+                    </script>
                 </section>
                 <img src="style/pictures/julemand_med_gave_og_trekant_1.png" alt="julemanden med gave" class="santaAlign">
             </main>
