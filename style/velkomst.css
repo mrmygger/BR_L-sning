@@ -28,3 +28,9 @@
     margin-left: 170px;
     height: 150px;
 }
+
+#add_button {
+    width: 72px;
+    height: 0;
+    height: 72px;
+}
