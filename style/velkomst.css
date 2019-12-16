@@ -17,6 +17,12 @@
     margin: inherit;
 }
 
+.preview-button {
+    border: none;
+    background-color: inherit;
+    animation-iteration-count: infinite;
+}
+
 .santaAlign {
     margin-top: -1px;
     height: 150px;

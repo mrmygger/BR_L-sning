@@ -20,12 +20,12 @@
                     <img src="style/pictures/oenskebog.jpeg" alt="Oenskebogen">
                     <p class="gray_text slim">Tryk på plusset for at tilføje dit første ønske.</p>
                     <img src="style/pictures/add_circle-24px.png" alt="" class="add_button">
-                    <p class="lighter">Klik <button class="preview-button"><img id="soundButton" src="style/pictures/600px-Speaker_Icon.png" alt="sound button"></button> for at få julemanden til at læse op</p>
+                    <p class="lighter">Klik <button class="preview-button animated tada"><img id="soundButton" src="style/pictures/600px-Speaker_Icon.png" alt="sound button"></button> for at få julemanden til at læse op</p>
                     
-                    <audio src="style/pictures/Neue Aufnahme 4.m4a" id="zouk-preview" type="audio/mpeg"></audio>
+                    <audio src="style/pictures/santa.mp3" id="santa-preview" type="audio/mpeg"></audio>
                     <script>
                         document.querySelector('.preview-button').addEventListener("click", function() {
-                            myAudio = document.querySelector("#zouk-preview");
+                            myAudio = document.querySelector("#santa-preview");
                             myAudio.paused ? myAudio.play() : myAudio.pause();
                         });
                     

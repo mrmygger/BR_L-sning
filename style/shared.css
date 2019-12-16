@@ -2,8 +2,7 @@
     display: grid;
     grid-template-columns: 1.2fr 2fr;
     justify-items: center;
-    width: 310px;
-    margin: 0 auto;
+    margin: 0 10px;
     row-gap: 35px;
 }
 
@@ -16,7 +15,7 @@
 }
 
 .shared_grid img {
-    height: 100px;
+    height: 90px;
 }
 
 .trans {
@@ -26,15 +25,5 @@
 .margin_content_box {
     margin-bottom: 15px;
     padding-bottom: 20px;
-}
-
-.on_top {
-    position: absolute;
-    margin-top: 30vh;
-    align-self: center;
-}
-
-.koeb_grid {
-    grid-template-columns: 1fr 1fr;
 }
 
