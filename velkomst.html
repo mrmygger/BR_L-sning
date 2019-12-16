@@ -21,6 +21,8 @@
                     <img src="style/pictures/oenskebog.jpeg" alt="Oenskebogen">
 
                     <p class="gray_text slim">Tryk på plusset for at tilføje dit første ønske.</p>
+                    <img src="style/pictures/add_circle-24px.png" alt="add icon" class="add_button">
+                    <p class="gray_text lighter smaller">Klik på højtalern for at få julemanden til at læse op.</p> 
                     <a href="add_wish_allow.html"><img src="style/pictures/add_circle-24px.png" alt="add icon" id="add_button"></a>
 
                     <p class="lighter">Klik <button class="preview-button animated tada"><img id="soundButton" src="style/pictures/600px-Speaker_Icon.png" alt="sound button"></button> for at få julemanden til at læse op</p>
@@ -34,8 +36,19 @@
                         });
                     
                     </script>
+
                 </section>
                 <section class="santa_speaker_grid">
+                    <button class="preview-button animated tada"><img class="preview_button" id="soundButton" src="style/pictures/santa_speaker.png" alt="speaker"></button>
+                    <audio src="style/pictures/santa.mp3" id="santa-preview" type="audio/mpeg"></audio>
+                         <!-- Jarne wrote this script for our band (Kassav) homepage -->
+                    <script>
+                            document.querySelector('.preview-button').addEventListener("click", function() {
+                                myAudio = document.querySelector("#santa-preview");
+                                myAudio.paused ? myAudio.play() : myAudio.pause();
+                            });
+                        
+                    </script>
                     <img src="style/pictures/julemand_med_gave_og_trekant_1.png" alt="julemanden med gave" class="santaAlign">
                 </section>
             </main>
