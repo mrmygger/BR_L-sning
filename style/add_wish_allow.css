@@ -9,6 +9,7 @@
 
 .dark_filter {
     background-color: black;
+    height: 100%;
 }
 
 .opacity {
@@ -31,3 +32,14 @@
     filter: drop-shadow(0px 3px 6px black);
 }
 
+.wish_body {
+    height: 100vh;
+}
+
+.camera { 
+    background-color: lightgray;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 60vh;
+}

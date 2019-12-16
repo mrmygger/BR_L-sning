@@ -1,0 +1,13 @@
+.notification {
+    position: absolute;
+    left: 74px;
+    bottom: 43px;
+}
+
+.notification p {
+    padding: 10%;
+    border-radius: 50%;
+    width: 25px;
+}
+
+
