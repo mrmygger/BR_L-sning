@@ -13,6 +13,7 @@
 @import "my_wishlist.css";
 @import "shared.css";
 @import "font.css";
+@import "empty_wishlist.css"
 @import "add_wish.css";
 @import "add_wish_allow.css";
 @import "popup_window.css";
