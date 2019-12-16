@@ -1,5 +1,17 @@
 .slettet_oenske {
-    grid-template-rows: 244px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 70px 120px 156px;
+
+    grid-template-columns: repeat(2, 1fr)61px;
+    
     min-height: 62vh;
+    
+    grid-row-gap: 11px;
+}
+
+.slettet_oenske_img {
+    align-self: center;
+}
+
+.slettet_oenske_info {
+    align-self: center;
 }
