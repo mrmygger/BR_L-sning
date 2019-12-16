@@ -88,7 +88,6 @@
 }
 
 .koeb_button {
-    width: 185px;
     height: 44px;
     border-radius: 5px;
     margin-top: 10px;
@@ -98,4 +97,10 @@
     color: white;
     text-align: center;
     padding: 6px;
+}
+
+@media (max-width: 330px) {
+    .koeb_button {
+        width: 185px;
+    }
 }
