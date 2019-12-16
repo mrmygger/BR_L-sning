@@ -28,7 +28,17 @@
     padding: 29px 10px; 
 }
 
+.santa_container {
+    display: grid;
+    justify-self: stretch;
+    grid-template-rows: 25px 75px;
+}
+
 .santa_speach_box {
+    
+}
+
+.content_box {
     width: 93%;
     margin: 4% auto 0;
     background-color: white;

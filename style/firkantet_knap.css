@@ -1,0 +1,101 @@
+.firkantet_button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 73px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+    width: 280px;
+    height: 48px;
+    margin-top: 10px;
+}
+
+.small_button {
+    padding: 10px 25px;
+    border-radius: 13px;
+    width: 82px;
+    height: 39px;
+}
+
+.login_wrapper {
+    display: grid;
+    align-self: center;
+}
+
+.login-ny_bruger {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.confirm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.login {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 25px 0 0 0;
+    height: 48px;
+    padding-top: 10px;
+}
+
+.opret_ny {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 0 25px 0 0;
+    height: 48px;
+    padding-top: 10px;
+}
+
+.confirm_button_right { 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;;
+    cursor: pointer;
+    border-radius: 0 0 25px 0;
+    height: 48px;
+    padding-top: 10px;
+}
+
+.confirm_button_left {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 0 0 0 25px;
+    height: 48px;
+    padding-top: 10px;
+}
+
+.koeb_button {
+    width: 185px;
+    height: 44px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.koeb_button p {
+    color: white;
+    text-align: center;
+    padding: 6px;
+}

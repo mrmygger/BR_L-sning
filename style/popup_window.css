@@ -1,0 +1,12 @@
+/* position of the window */
+.popup_window {
+    position: absolute;
+    top: 50%;
+    max-width: 450px;
+    width: 100vw;
+}
+
+.popup_window_size {
+    border-radius: 25px;
+    width: 300px;
+}

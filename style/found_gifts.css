@@ -1,0 +1,44 @@
+.found_gifts_img {
+    height: 13vh;
+    margin-bottom: 20px;
+}
+
+.found_gifts h1 {
+    font-size: 4vh;
+    margin: 0;
+    margin-top: 10px;
+}
+.found_gifts {
+    min-height: 64vh;
+    padding-bottom: 5%;
+}
+
+.add_gift p {
+    font-size: 23px;
+}
+
+.found_info :nth-child(3) {
+    text-align: right;
+}
+
+.x-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 0;
+    width: 0;
+    padding: 6%;
+    position: absolute;
+    right: 0;
+    margin: 1% 0%;
+}
+
+.x-button p {
+    font-size: 4vh;
+    font-family: 'Chewy', cursive;
+    color: white;
+}
+.found_gift_margintop {
+    margin-top: 6%;
+}

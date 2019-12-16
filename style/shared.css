@@ -1,29 +1,29 @@
 .shared_grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.2fr 2fr;
+    justify-items: center;
+    margin: 0 10px;
+    row-gap: 35px;
 }
 
 .shared_grid h2 {
     text-align: left;
 }
 
+.shared_grid2 h2 {
+    text-align: left;
+}
+
 .shared_grid img {
-    height: 100px;
-    margin: 10px;
+    height: 90px;
 }
 
-.right {
-    justify-self: right;
-}
-
-.shared_grid :nth-child(3) {
-    opacity: 30%;
-}
-
-.shared_grid :nth-child(4) {
+.trans {
     opacity: 30%;
 }
 
 .margin_content_box {
     margin-bottom: 15px;
+    padding-bottom: 20px;
 }
+

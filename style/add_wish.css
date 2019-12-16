@@ -1,31 +1,44 @@
+.wish_body {
+    width: 100vw;
+}
+
 .add_wish {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    height: 84vh;
 }
 
 .add_wish h1 {
-    font-size: 30px;
+    font-size: 4.5vh;
 }
 
-.camera { 
+.camera_on { 
     background-color: lightgray;
     display: grid;
     align-content: center;
     justify-content: center;
+    height: 59vh;
+}
+
+.camera_on img {
+    max-height: 59vh;
+    width: 100%;
 }
 
 .camera_nav {
-    padding: 2%;
+    padding: 2% 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
 }
 
 .camera_flip img {
-    margin-left: 2%;
+    margin-left: 2%;    
 }
 
 .camera_flip img { 
     height: 60px;
+}
+
+.pop-up_window {
+    float: inline-start;
 }

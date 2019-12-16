@@ -14,16 +14,8 @@
     background-color: #505050;
 }
 
-.gray_text {
-    color: #505050;
-}
-
 .yellow {
     background-color: #FFEC00;
-}
-
-.yellow_text {
-    color: #FFEC00;
 }
 
 .blue { 
@@ -32,4 +24,16 @@
 
 .purple {
     background-color: #9D7DAE;
-} 
+}
+
+.gray_text {
+    color: #505050;
+}
+
+.yellow_text {
+    color: #FFEC00;
+}
+
+.white_text {
+    color: white;
+}
