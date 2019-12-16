@@ -28,7 +28,6 @@
     display: grid;
     grid-template-columns: 140px 140px;
     align-items: baseline;
-    margin-left: 170px;
     height: 150px;
 }
 
