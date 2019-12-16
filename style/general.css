@@ -1,5 +1,4 @@
 @import "main.css";
-@import "index.css";
 @import "animate.css";
 @import "colors.css";
 @import "oversigt_box.css";
@@ -16,6 +15,8 @@
 @import "font.css";
 @import "add_wish.css";
 @import "add_wish_allow.css";
+@import "popup_window.css";
+@import "index.css";
 @import "add_wish_stock.css";
 @import "add_wish_loading.css";
 @import "popup_window.css";
@@ -24,4 +25,3 @@
 @import "found_gifts_sack.css";
 @import "found_gifts_last.css";
 @import "found_gifts.css"
-
