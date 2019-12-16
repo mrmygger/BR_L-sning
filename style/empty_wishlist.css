@@ -1,7 +1,31 @@
 .empty_wishlist {
     display: grid;
-    grid-template-rows: 77px 1fr 1fr;
-    min-height: 64vh;
+    grid-template-rows: 77px 1fr ;
+    min-height: 63vh;
+}
+
+.santa_container {
+    display: grid;
+    justify-self: stretch;
+    background-color: #F1F1F1;
+    grid-template-rows: 30px 75px;
+
+}
+
+.santa_container img {
+    justify-self: right;
+    padding-right: 1px;
+    margin-top: 180px;
+}
+
+.santa_speach_bubble {
+    background-color: white;
+    margin-top: 336px;
+    border-radius: 25px;
+    align-self: center;
+    max-width: 277px;
+    justify-self: center;
+    padding: 29px 10px; 
 }
 
 .santa_container {
@@ -20,3 +44,8 @@
     background-color: white;
     border-radius: 5px;
     }
+
+    .plus_symbol {
+        width: 72px;
+    }
+    
