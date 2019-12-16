@@ -7,5 +7,9 @@
 }
 
 .bekraeft_slet_oenske_allow_window p {
-    padding: 5px
+    padding-bottom: 3%;
+}
+
+.bekraeft_slet_oenske_allow_window img {
+    text-align: center;
 }
