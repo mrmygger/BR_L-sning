@@ -59,3 +59,7 @@ a {
 .slimmer {
     letter-spacing: -0.3pt;
 }
+
+.smaller {
+    font-size: 14px;
+}
