@@ -11,21 +11,23 @@
     margin: 10px;
 }
 
-#soundButton {
-    width: 20px;
-    height: 20px;
-    margin: inherit;
-}
-
 .preview-button {
     border: none;
     background-color: inherit;
     animation-iteration-count: infinite;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .santaAlign {
     margin-top: -1px;
-    margin-left: 170px;
+    height: 140px;
+}
+
+.santa_speaker_grid {
+    display: grid;
+    grid-template-columns: 140px 140px;
+    align-items: baseline;
     height: 150px;
 }
 

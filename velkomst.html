@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,44 +9,47 @@
     <link href="https://fonts.googleapis.com/css?family=Chewy&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
     <section class="wrapper">
         <section class="scroll">
             <main>
                 <section class="content_box velkomst">
                     <h1 class="gray_text noShadow">Velkommen til BR's ønskeliste!</h1>
-                    <p class="gray_text">Mine nisser og jeg vil hjælpe dig med at finde lige nøjagtig det du ønsker dig til jul.</p>
-
+                    <p class="gray_text">Mine nisser og jeg vil hjælpe dig med at finde lige nøjagtig det du ønsker dig
+                        til jul.</p>
                     <img src="style/pictures/nisse_shadow.png" alt="nisse med gave">
                     <p class="gray_text">Find BR ønskebogen frem og så er vi klar!</p>
                     <img src="style/pictures/oenskebog.jpeg" alt="Oenskebogen">
-
                     <p class="gray_text slim">Tryk på plusset for at tilføje dit første ønske.</p>
-                    <a href="add_wish_allow.html"><img src="style/pictures/add_circle-24px.png" alt="add icon" id="add_button"></a>
-
-                    <p class="lighter">Klik <button class="preview-button animated tada"><img id="soundButton" src="style/pictures/600px-Speaker_Icon.png" alt="sound button"></button> for at få julemanden til at læse op</p>
+                    <a href="add_wish_allow.html"><img src="style/pictures/add_circle-24px.png" alt="add icon"
+                            id="add_button"></a>
+                    <p class="lighter smaller">Tryk på højtaleren for at få julemanden til at læse op.</p>
+                </section>
+                <section class="santa_speaker_grid">
+                    <button class="preview-button animated tada"><img class="preview_button" id="soundButton"
+                            src="style/pictures/santa_speaker.png" alt="speaker"></button>
                     <audio src="style/pictures/santa.mp3" id="santa-preview" type="audio/mpeg"></audio>
-                      
-                 <!-- Jarne wrote this script for our band (Kassav) homepage -->
-                       <script>
-                        document.querySelector('.preview-button').addEventListener("click", function() {
+                    <!-- Jarne wrote this script for our band (Kassav) homepage -->
+                    <script>
+                        document.querySelector('.preview-button').addEventListener("click", function () {
                             myAudio = document.querySelector("#santa-preview");
                             myAudio.paused ? myAudio.play() : myAudio.pause();
                         });
-                    
+
                     </script>
-                </section>
-                <section class="santa_speaker_grid">
-                    <img src="style/pictures/julemand_med_gave_og_trekant_1.png" alt="julemanden med gave" class="santaAlign">
+                    <img src="style/pictures/julemand_med_gave_og_trekant_1.png" alt="julemanden med gave"
+                        class="santaAlign">
                 </section>
             </main>
         </section>
         <nav class="red noMarginNav">
             <section class="navSack">
                 <a href="my_wishlist.html"><img src="style/pictures/sack_icon_white.png" alt="julesaek"></a>
-                <p>ønskeliste</p>
+                <p>Ønskeliste</p>
             </section>
-            <a href=""><img src="style/pictures/br_logo.png" alt="Search Icon" class="brButton shadowed"></a>
+            <a href="oversigt.html"><img src="style/pictures/br_logo.png" alt="Search Icon"
+                    class="brButton shadowed"></a>
             <section class="navShare">
                 <a href="del_oenske.html"><img src="style/pictures/letter_icon_1.png" alt="Profile Icon"></a>
                 <p>Del</p>
@@ -53,4 +57,5 @@
         </nav>
     </section>
 </body>
+
 </html>
