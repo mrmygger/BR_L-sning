@@ -30,6 +30,7 @@ main {
     max-width: 450px;
     margin: 0 auto;
     background-image: url("pictures/background_flakes.jpg");
+    background-size: cover;
 }
 
 .dark_background {

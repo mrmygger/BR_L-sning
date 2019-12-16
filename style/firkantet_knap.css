@@ -1,15 +1,16 @@
 .firkantet_button {
     border: none;
+    border-radius: 5px;
     color: white;
     padding: 10px 73px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 22px;
-    margin: 4px 2px;
     cursor: pointer;
-    width: 266px;
+    width: 280px;
     height: 48px;
+    margin-top: 10px;
 }
 
 .small_button {
@@ -87,7 +88,7 @@
 }
 
 .koeb_button {
-    width: 193px;
+    width: 185px;
     height: 44px;
     border-radius: 5px;
     margin-top: 10px;

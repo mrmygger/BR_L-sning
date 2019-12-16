@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,26 +10,45 @@
     <link rel="stylesheet" href="animate.min.css">
     <title>Document</title>
 </head>
+
 <body>
     <section class="wrapper">
         <section class="scroll">
             <header>
                 <img src="style/pictures/br_logo.png" alt="br logo">
             </header>
-            <main>
-                <section class="features">
-                    <img src="style/pictures/letter_icon_1.png" alt="letter icon">
-                    <h2>Opret din egen ønskeliste</h2>
-                    <img src="style/pictures/letter_icon.png" alt="letter icon">
-                    <h2>Del den med andre</h2>
-                    <img src="style/pictures/letter_icon.png" alt="letter icon">
-                    <h2>Tilføj ønsker fra julekataloget</h2>
-                    <img src="style/pictures/letter_icon.png" alt="letter icon">
-                    <h2>Mød julemanden i butikken</h2>
+            <main class="login_main">
+                <section class="blue_background">
+                    <h1 class="shadow text_align_center">Julen starter nu!</h1>
+                    <h2 class="sans_serif shadow text_align_center">Opret din egen ønskeliste,<br> og del den med
+                        andre.<br>Tilføj ønsker
+                        fra julekataloget<br>og mød julemanden i butikken.</h2>
                 </section>
                 <img src="style/pictures/sack.png" alt="christmas sack" class="sack animated pulse">
+
+                <section class="content_box login_grid">
+                    <section class="login_wrapper"> <a class="login red login_shadow" href="login.html" class="button"><img
+                                src="style/pictures/login_nøgle.png" alt="login key">Login</a></section>
+                    <section class="login_wrapper"> <a class="opret_ny dark_gray" href="create_new.html" class="button"><img
+                                src="style/pictures/opret_ny_icon.png" alt="login key">Opret ny</a></section>
+                    <section class="login_content">
+                        <h2 class="gray_text sans_serif slimmer">Login for at bruge ønskelister</h2>
+                        <form class="login_form">
+                            <label for="bnavn">Brugernavn</label>
+                            <input type="text" id="bnavn" name="brugernavn" placeholder="Dit brugernavn">
+                            <label for="pword">Password</label>
+                            <input type="text" id="pword" name="password" placeholder="Din password">
+                            <section class="remember_me">
+                                <input type="checkbox" name="remember me">
+                                <p class="lighter gray_text">Husk mig</p><br>
+                            </section>
+                                <a class="firkantet_button red" href="oversigt.html" class="button"><input type="button" value="Login"></input></a>
+                        </form>                  
+                     </section>
+                </section>
             </main>
         </section>
     </section>
 </body>
+
 </html>

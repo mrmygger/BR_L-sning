@@ -1,5 +1,4 @@
 @import "main.css";
-@import "index.css";
 @import "animate.css";
 @import "colors.css";
 @import "oversigt_box.css";
@@ -14,6 +13,18 @@
 @import "my_wishlist.css";
 @import "shared.css";
 @import "font.css";
+@import "empty_wishlist.css"
 @import "add_wish.css";
+@import "add_wish_allow.css";
+@import "popup_window.css";
+@import "index.css";
+@import "add_wish_stock.css";
+@import "add_wish_loading.css";
 @import "popup_window.css";
 @import "slettet_oenske.css";
+@import "bekraeft_slet_oenske.css";
+@import "found_gifts_smallwindow.css";
+@import "found_gifts_sack.css";
+@import "found_gifts_last.css";
+@import "found_gifts.css"
+

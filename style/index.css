@@ -6,6 +6,7 @@
     text-align: left;
     grid-column-gap: 12px;
     margin: 30px 0;
+    align-items: end;
 }
 
 .features img {
@@ -13,7 +14,72 @@
 }
 
 .sack {
-    width: 200px;
+    width: 26vh;
+    padding: 10px 0;
     animation-iteration-count: infinite;
-    animation-delay: 1s;
+}
+
+.login_main {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.login_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: inherit;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 25px 25px 5px 5px;
+}
+
+.login_content {
+    grid-column: 1 / 3;
+    width: 280px;
+    margin: 0 auto;
+}
+
+.login_content h2 {
+    margin: 20px 0;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type=button] {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    background-color: inherit;
+}
+
+input[type=checkbox] {
+    height: 39px;
+    width: 39px;
+}
+
+input[type=checkbox]:checked {
+    animation: rubberBand 1s;
+}
+
+.login_form {
+    width: 280px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #505050;
+}
+
+.remember_me {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 45px auto;
 }
