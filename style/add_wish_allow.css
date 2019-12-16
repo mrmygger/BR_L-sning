@@ -9,6 +9,7 @@
 
 .dark_filter {
     background-color: black;
+    height: 100%;
 }
 
 .opacity {
@@ -27,5 +28,16 @@
         width: 100vw;
 }
 
+.wish_body {
+    height: 100vh;
+}
+
+.camera { 
+    background-color: lightgray;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 60vh;
+}
 
 
