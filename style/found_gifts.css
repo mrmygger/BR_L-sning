@@ -43,3 +43,8 @@
 .found_gift_margintop {
     margin-top: 6%;
 }
+
+.koeb_button_width {
+    width: 118px;
+    margin: 0 auto;
+}
